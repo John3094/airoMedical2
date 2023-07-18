@@ -1,16 +1,19 @@
-export const App = () => {
+import { Routes, Route } from 'react-router-dom';
+import Home from '../pages/RecipesList/RecipesList';
+import RecipeDetails from '../pages/RecipeDetails/RecipeDetails';
+import NotFound from '../pages/NotFound/NotFound';
+
+const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div className="App">
+      <h1>Beer recipes</h1>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="recipe/:id" element={<RecipeDetails />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </div>
   );
 };
+
+export default App;
