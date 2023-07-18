@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/airoMedical2/static/css/main.a3a65b7e.css",
+    "main.js": "/airoMedical2/static/js/main.8d7d52fc.js",
+    "static/media/2208_w018_n002_1176b_p15_1176.jpg": "/airoMedical2/static/media/2208_w018_n002_1176b_p15_1176.2a61bf7fa9d7dc4b0a52.jpg",
+    "static/media/beer_long_24_1_03_1.jpg": "/airoMedical2/static/media/beer_long_24_1_03_1.828560583adfbf200e94.jpg",
+    "index.html": "/airoMedical2/index.html",
+    "main.a3a65b7e.css.map": "/airoMedical2/static/css/main.a3a65b7e.css.map",
+    "main.8d7d52fc.js.map": "/airoMedical2/static/js/main.8d7d52fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3a65b7e.css",
+    "static/js/main.8d7d52fc.js"
+  ]
+}
