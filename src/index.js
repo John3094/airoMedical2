@@ -6,7 +6,7 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/airoMedical">
+    <BrowserRouter basename="/airo-medical">
       <App />
     </BrowserRouter>
   </React.StrictMode>
