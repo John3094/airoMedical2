@@ -1,8 +1,8 @@
 {
-  "name": "airo-medical",
+  "name": "airoMedical",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://John3094.github.io/airo-medical/",
+  "homepage": "https://John3094.github.io/airoMedical/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
